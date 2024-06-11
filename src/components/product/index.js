@@ -13,7 +13,7 @@ import { MyContext } from '../../App';
 
 
 const Product = (props) => {
-    console.log(props,"product props");
+ 
 
     const [productData, setProductData] = useState();
     const [isAdded, setIsadded] = useState(false);
